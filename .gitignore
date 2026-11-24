@@ -1,9 +1,9 @@
+
 # Dependencies
 **/node_modules
 .pnpm-store/
 
 # Build outputs
-dist/
 build/
 *.dist
 
@@ -80,7 +80,7 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# parcel-bundler cache (https://parceljs.org/)
+# parcel-bundler cache
 .cache
 .parcel-cache
 
@@ -106,10 +106,10 @@ temp/
 *.sqlite
 *.sqlite3
 
-# Webdev artifacts (checkpoint zips, migrations, etc.)
+# Webdev artifacts
 .webdev/
 
-# Manus version file (auto-generated, not part of source)
+# Manus version file
 client/public/__manus__/version.json
 .project-config.json
 .venv/
